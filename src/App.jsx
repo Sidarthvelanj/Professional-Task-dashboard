@@ -36,7 +36,7 @@ function AppContent() {
   return (
     <div className="min-h-screen flex flex-col md:flex-row px-4 py-6 md:px-8 md:py-8 gap-6 transition-colors duration-500 bg-gradient-to-br from-white to-gray-100 dark:from-elfonze-base dark:to-black text-gray-900 dark:text-elfonze-soft">
       <Sidebar username={username} />
-      <main className="flex-1 flex justify-center">
+      <main className="flex-1 flex items-center justify-center min-h-screen md:min-h-0">
         <div className="w-full max-w-5xl space-y-6 backdrop-blur-xl animate-fade-in">
           <EditGoalForm />
           <Routes>
